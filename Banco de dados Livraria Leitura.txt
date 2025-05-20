@@ -1,0 +1,195 @@
+
+CREATE TABLE Livros (
+	LivrosID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Categoria Text,
+    Titulo TEXT,
+  	Autor TEXT,
+  	Quantidade REAl,
+    Preco REAL,
+    Recomendacao REAL,
+    Vendas REAL
+  
+  
+);
+
+ INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco, Recomendacao, Vendas) VALUES 
+  ('Ficcao Distópica', '1984', 'George Orwell', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES 
+  ('Ficcao Distópica', 'A Revolucao dos Bichos', 'George Orwell', 10, 29.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES 
+  ('Ficcao Distópica', 'Laranja Mecanica', 'Anthony Burgess', 10, 45.00);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES 
+  ('Ficcao Distópica', 'Fahrenheit 451', 'Ray Bradbury', 10, 42.50);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES 
+  ('Ficcao Distópica', 'Admiravel Mundo Novo', 'Aldous Huxley', 10, 38.00);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES 
+  ('Ficcao Científica', 'Neuromancer', 'William Gibson', 10, 47.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES 
+  ('Ficcao Científica', 'Duna', 'Frank Herbert', 10, 59.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Ficcao Científica', 'Fundacao', 'Isaac Asimov', 10, 49.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Ficcao Científica', 'Eu, Robo', 'Isaac Asimov', 10, 35.00);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Ficcao Científica', 'O Fim da Eternidade', 'Isaac Asimov', 10, 40.00);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'O Hobbit', 'J.R.R. Tolkien', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'O Senhor dos Aneis: A Sociedade do Anel', 'J.R.R. Tolkien', 10, 59.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'O Senhor dos Aneis: As Duas Torres', 'J.R.R. Tolkien', 10, 59.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'O Senhor dos Aneis: O Retorno do Rei', 'J.R.R. Tolkien', 10, 59.99);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'Harry Potter e a Pedra Filosofal', 'J.K. Rowling', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'Harry Potter e a Camara Secreta', 'J.K. Rowling', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'Harry Potter e o Prisioneiro de Azkaban', 'J.K. Rowling', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'Harry Potter e o Calice de Fogo', 'J.K. Rowling', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'Harry Potter e a Ordem da Fenix', 'J.K. Rowling', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'Harry Potter e o Enigma do Principe', 'J.K. Rowling', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Fantasia', 'Harry Potter e as Reliquias da Morte', 'J.K. Rowling', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Mistério', 'O Codigo Da Vinci', 'Dan Brown', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Mistério', 'Anjos e Demonios', 'Dan Brown', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Mistério', 'Inferno', 'Dan Brown', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Mistério', 'Origem', 'Dan Brown', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Mistério', 'O Simbolo Perdido', 'Dan Brown', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Infantojuvenil', 'O Pequeno Principe', 'Antoine de Saint-Exupery', 10, 29.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'Dom Quixote', 'Miguel de Cervantes', 10, 49.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'Crime e Castigo', 'Fiodor Dostoevski', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'O Idiota', 'Fiodor Dostoievski', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'Os Irmaos Karamazov', 'Fiodor Dostoievski', 10, 49.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Romance', 'Orgulho e Preconceito', 'Jane Austen', 10, 34.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Romance', 'Razao e Sensibilidade', 'Jane Austen', 10, 34.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Romance', 'Emma', 'Jane Austen', 10, 34.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Romance', 'Mansfield Park', 'Jane Austen', 10, 34.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Romance', 'Persuasao', 'Jane Austen', 10, 34.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Romance', 'O Morro dos Ventos Uivantes', 'Emily Brontë', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Romance', 'Jane Eyre', 'Charlotte Bronte', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'Grandes Esperancas', 'Charles Dickens', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'Oliver Twist', 'Charles Dickens', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'David Copperfield', 'Charles Dickens', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'A Tale of Two Cities', 'Charles Dickens', 10, 44.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'O Retrato de Dorian Gray', 'Oscar Wilde', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'O Medico e o Monstro', 'Robert Louis Stevenson', 10, 34.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Terror', 'Dracula', 'Bram Stoker', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Terror', 'Frankenstein', 'Mary Shelley', 10, 39.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'A Metamorfose', 'Franz Kafka', 10, 29.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'O Processo', 'Franz Kafka', 10, 34.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'A Colonia Penal', 'Franz Kafka', 10, 29.90);
+INSERT INTO Livros (Categoria, Titulo, Autor, Quantidade, Preco) VALUES
+  ('Clássico', 'O Castelo', 'Franz Kafka', 10, 34.90);
+  
+  SELECT * FROM Livros;
+
+--	SELECT * FROM Livros WHERE Preco > 25;
+ --   SELECT * FROM Livros WHERE Autor = "George Orwell";
+ --   SELECT * From Livros ORDER BY Preco ASC LIMIT 3;
+ --   SELECT * FROM Livros ORDER BY Preco DESC LIMIT 3;
+  --  SELECT * FROM Livros ORDER BY Titulo ASC LIMIT 3;
+  --  SELECT * FROM Livros ORDER BY Titulo DESC LIMIT 3;
+  
+  
+-- Exercícios (Funções de Agregação):
+
+-- 1. Quantos produtos existem na tabela?
+-- 2. Qual é a soma total das quantidades em estoque?
+-- 3. Qual é o preço médio dos produtos?
+-- 4. Qual é o menor preço registrado?
+-- 5. Qual é o maior preço registrado?
+
+-- Exercícios (Funções de Agregação):
+
+-- 1. Quantas vendas foram realizadas?
+-- 2. Qual foi o total de itens vendidos?
+-- 3. Qual foi o preço unitário médio das vendas?
+-- 4. Qual foi o menor valor de preço unitário?
+-- 5. Qual foi o maior valor de preço unitário?
+
+CREATE TABLE Funcionario (
+	FuncionariosID INTEGER PRIMARY KEY AUTOINCREMENT,
+	Nome TEXT,
+  	Salario REAL,
+  	Area TEXT,
+  	Vale Transporte REAl,
+  	Filhos TEXT,
+    Estado civil TEXT,
+  	Idade REAL
+);
+
+--Exercícios (Funções de Agregação):
+
+--1. Quantos funcionários existem?
+--2. Qual é a soma total dos salários?
+--3. Qual é o salário médio?
+--4. Qual é o menor salário registrado?
+--5. Qual é o maior salário registrado?
+
+CREATE TABLE Vestuario Funcionarios (
+	FuncionarioId INTEGER PRIMARY KEY AUTOINCREMENT,
+  	Nome TEXT,
+  	Calca TEXT, 
+  	Camisa TEXT,
+  	Cinto REAL,
+  	Tenis REAL
+);
+
+
+Exercícios:
+1. Mostre a média das notas para cada turma.
+2. Liste apenas as turmas cuja média de notas seja maior que 6.
+3. Para cada aluno, informe nome, turma, nota e se está 'Aprovado' (nota >= 6) ou 'Reprovado'.
+4. Conte quantos alunos foram aprovados e quantos foram reprovados.
+5. Conte quantos alunos existem em cada turma.
+
+
+Exercícios:
+1. Mostre o preço médio dos produtos para cada categoria.
+2. Liste apenas as categorias cujo preço médio seja maior que R$ 50.
+3. Para cada produto, mostre nome, categoria, preço e classifique-o como:
+'Barato' (preço até 20), 
+'Intermediário' (preço entre 21 e 100)
+'Caro' (preço acima de 100).
+4. Conte quantos produtos existem em cada categoria de preço (Barato, Intermediário, Caro).
+5. Conte quantos produtos existem em cada categoria.
+
+
+
+
+    
+    
+    
+  
